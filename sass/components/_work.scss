@@ -1,0 +1,121 @@
+font {
+  --font-5: normal normal normal 25px/1.4em questrial, sans-serif;
+}
+.work {
+  text-align: center;
+  &__header {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  &__row-1,
+  &__row-2 {
+    display: flex;
+    padding: 50px 100px 100px 100px;
+  }
+
+  img {
+    width: 600px;
+  }
+
+  .first-column {
+    text-align: center;
+    padding-top: 80px;
+    h2 {
+      font-size: 30px;
+      letter-spacing: 0em;
+      font-weight: bold;
+      font-family: questrial, sans-serif;
+      font-stretch: semi-condensed;
+      padding-bottom: 20px;
+      text-align: justify;
+      text-justify: newspaper;
+      padding-left: 95px;
+    }
+    p {
+      text-align: justify;
+      text-justify: newspaper;
+      font-family: questrial, sans-serif;
+      padding: 0px 100px;
+      font-size: 20px;
+    }
+  }
+
+  &__row-2 {
+    .column-1 {
+      border: 1px solid white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-left: 70px;
+    }
+    .column-2 {
+      padding-top: 80px;
+      p {
+        text-align: justify;
+        text-justify: newspaper;
+        font-family: questrial, sans-serif;
+        padding: 0px 100px;
+        font-size: 20px;
+      }
+      h2 {
+        text-align: justify;
+        text-justify: newspaper;
+        font-size: 30px;
+        letter-spacing: 0em;
+        font-weight: bold;
+        font-family: questrial, sans-serif;
+        // font-stretch: semi-condensed;
+        padding-bottom: 20px;
+        padding-left: 90px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .work {
+    &__header {
+      font-size: 40px;
+      padding-top: 40px;
+      padding-bottom: 10px;
+    }
+    &__row-1,
+    &__row-2 {
+      display: block;
+      padding: 10px;
+      border: 1px solid white;
+      box-shadow: 0 4px 8px 0 tomato,
+        0 6px 20px 0 tomato;
+    }
+    &__row-2 {
+      .column-1 {
+        box-shadow: none;
+        border: none;
+        margin-left: 10px;
+        img{
+          width: 100%;
+        }
+      }
+      .column-2{
+        width: 100%;
+        padding-top: 10px;
+      p {
+        padding: 0px 100px;
+        font-size: 20px;
+      }
+      h2 {
+        padding-bottom: 20px;
+        padding-left: 90px;
+      }
+      }
+    }
+    &__row-1 {
+      .second-column {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

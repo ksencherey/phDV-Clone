@@ -1,0 +1,207 @@
+.culture {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.purpose {
+  position: relative;
+  display: flex;
+  width: 100%;
+  &__image {
+    position: absolute;
+    width: 100%;
+    img {
+      width: 50%;
+    }
+  }
+  &__text {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    border: 1px solid silver;
+    h2 {
+      padding-top: 200px;
+      text-align: justify;
+      text-justify: newspaper;
+      font-size: 50px;
+      font-family: futura-lt-w01-book, sans-serif;
+      padding-left: 140px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
+.vision {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  padding-top: 585px;
+  &__text {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    // border: 1px solid silver;
+    h2 {
+      padding-top: 200px;
+      text-align: justify;
+      text-justify: newspaper;
+      font-size: 50px;
+      font-family: futura-lt-w01-book, sans-serif;
+      padding-left: 80px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+  &__image {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    img {
+      width: 50%;
+    }
+  }
+}
+
+.mission {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  padding-top: 596px;
+  &__image {
+    position: absolute;
+    width: 100%;
+    img {
+      // position: absolute;
+      width: 50%;
+    }
+  }
+  &__text {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 98%;
+    left: 50%;
+    border: 1px solid silver;
+    h2 {
+      padding-top: 200px;
+      text-align: justify;
+      text-justify: newspaper;
+      font-size: 50px;
+      font-family: futura-lt-w01-book, sans-serif;
+      padding-left: 100px;
+    }
+    p {
+      font-size: 25px;
+      padding-left: 100px;
+      padding-right: 100px;
+      text-align: justify;
+      text-justify: newspaper;
+    }
+  }
+}
+@media screen and (max-width: 980px) {
+  .culture {
+    display: block;
+    .purpose,
+    .mission,
+    .vision {
+      display: inline-block;
+    }
+    .purpose {
+      &__image {
+        img {
+          width: auto;
+          height: auto;
+          z-index: 0;
+        }
+      }
+      &__text {
+        width: 50%;
+        color: white;
+        left: 0%;
+        z-index: 1;
+        border: none;
+        h2 {
+          padding-top: 20px;
+          font-size: 40px;
+          padding-left: 20px;
+          // text-align: center;
+        }
+        p {
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+    }
+    .vision {
+      width: 100%;
+      height: auto;
+      padding-top: 750px;
+      &__text {
+        width: 50%;
+        height: auto;
+        color: white;
+        z-index: 1;
+        background-color: black;
+        opacity: 0.5;
+        box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+        h2 {
+          padding-top: 0px;
+          text-align: justify;
+          text-justify: newspaper;
+          font-size: 40px;
+        }
+        p {
+          font-size: 25px;
+        }
+      }
+      &__image {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .mission {
+      display: block;
+      width: 100%;
+      padding-top: 490px;
+      &__image {
+        img {
+          width: 100%;
+        }
+      }
+      &__text {
+        position: absolute;
+        text-align: center;
+        width: 50%;
+        height: auto;
+        top: 105%;
+        left: 45%;
+        color: black;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 black;
+        h2 {
+          padding-top: 10px;
+          font-size: 30px;
+          padding-left: 10px;
+        }
+        p {
+          font-size: 20px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}

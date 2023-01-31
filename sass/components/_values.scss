@@ -1,0 +1,30 @@
+.values {
+  display: block;
+  width: 100%;
+  padding-top: 600px;
+  padding-bottom: 100px;
+  img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .values {
+    position: relative;
+    padding-top: 410px;
+    padding-bottom: 320px;
+    width: auto;
+    height: auto;
+    img {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
+
+    }
+    img:hover{
+      transform: scale(1.5);
+      cursor: pointer;
+    }
+  }
+}
