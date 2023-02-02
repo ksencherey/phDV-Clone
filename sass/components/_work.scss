@@ -4,25 +4,26 @@ font {
 .work {
   text-align: center;
   &__header {
-    font-size: 50px;
+    font-size: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
   &__row-1,
   &__row-2 {
     display: flex;
-    padding: 50px 100px 100px 100px;
+    padding: 50px 100px;
   }
 
   img {
-    width: 600px;
+    width: 500px;
   }
 
   .first-column {
     text-align: center;
     padding-top: 80px;
+    width: 50%;
     h2 {
-      font-size: 30px;
+      font-size: 25px;
       letter-spacing: 0em;
       font-weight: bold;
       font-family: questrial, sans-serif;
@@ -40,7 +41,9 @@ font {
       font-size: 20px;
     }
   }
-
+  .second-column {
+    width: 50%;
+  }
   &__row-2 {
     .column-1 {
       border: 1px solid white;
@@ -50,6 +53,7 @@ font {
     }
     .column-2 {
       padding-top: 80px;
+      width: 50%;
       p {
         text-align: justify;
         text-justify: newspaper;
@@ -60,7 +64,7 @@ font {
       h2 {
         text-align: justify;
         text-justify: newspaper;
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 0em;
         font-weight: bold;
         font-family: questrial, sans-serif;
@@ -84,29 +88,28 @@ font {
       display: block;
       padding: 10px;
       border: 1px solid white;
-      box-shadow: 0 4px 8px 0 tomato,
-        0 6px 20px 0 tomato;
+      box-shadow: 0 4px 8px 0 tomato, 0 6px 20px 0 tomato;
     }
     &__row-2 {
       .column-1 {
         box-shadow: none;
         border: none;
         margin-left: 10px;
-        img{
+        img {
           width: 100%;
         }
       }
-      .column-2{
+      .column-2 {
         width: 100%;
         padding-top: 10px;
-      p {
-        padding: 0px 100px;
-        font-size: 20px;
-      }
-      h2 {
-        padding-bottom: 20px;
-        padding-left: 90px;
-      }
+        p {
+          padding: 0px 100px;
+          font-size: 20px;
+        }
+        h2 {
+          padding-bottom: 20px;
+          padding-left: 90px;
+        }
       }
     }
     &__row-1 {

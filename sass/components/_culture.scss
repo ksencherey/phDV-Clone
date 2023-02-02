@@ -39,14 +39,12 @@
 .vision {
   position: relative;
   display: flex;
-  max-width: 100%;
-  padding-top: 585px;
+  width: 100%;
+  padding-top: 37%;
   &__text {
     position: absolute;
     text-align: center;
     width: 50%;
-    height: 100%;
-    // border: 1px solid silver;
     h2 {
       padding-top: 200px;
       text-align: justify;

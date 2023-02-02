@@ -123,13 +123,13 @@ img {
 .hero__text {
   text-justify: newspaper;
   padding-top: 100px;
-  padding-left: 30px;
+  padding-left: 80px;
 }
 .hero__text h1 {
-  font-size: 60px;
+  font-size: 40px;
 }
 .hero__text p {
-  font-size: 25px;
+  font-size: 20px;
 }
 .hero__text h1,
 .hero__text p {
@@ -466,23 +466,24 @@ font {
   text-align: center;
 }
 .work__header {
-  font-size: 50px;
+  font-size: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .work__row-1, .work__row-2 {
   display: flex;
-  padding: 50px 100px 100px 100px;
+  padding: 50px 100px;
 }
 .work img {
-  width: 600px;
+  width: 500px;
 }
 .work .first-column {
   text-align: center;
   padding-top: 80px;
+  width: 50%;
 }
 .work .first-column h2 {
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 0em;
   font-weight: bold;
   font-family: questrial, sans-serif;
@@ -499,6 +500,9 @@ font {
   padding: 0px 100px;
   font-size: 20px;
 }
+.work .second-column {
+  width: 50%;
+}
 .work__row-2 .column-1 {
   border: 1px solid white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -506,6 +510,7 @@ font {
 }
 .work__row-2 .column-2 {
   padding-top: 80px;
+  width: 50%;
 }
 .work__row-2 .column-2 p {
   text-align: justify;
@@ -517,7 +522,7 @@ font {
 .work__row-2 .column-2 h2 {
   text-align: justify;
   text-justify: newspaper;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 0em;
   font-weight: bold;
   font-family: questrial, sans-serif;
@@ -655,14 +660,13 @@ font {
 .vision {
   position: relative;
   display: flex;
-  max-width: 100%;
-  padding-top: 585px;
+  width: 100%;
+  padding-top: 37%;
 }
 .vision__text {
   position: absolute;
   text-align: center;
   width: 50%;
-  height: 100%;
 }
 .vision__text h2 {
   padding-top: 200px;
