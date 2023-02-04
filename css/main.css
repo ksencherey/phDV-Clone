@@ -911,10 +911,6 @@ font {
   width: 2.5%;
 }
 
-.hidden {
-  display: none;
-}
-
 @media screen and (max-width: 980px) {
   .address {
     padding-top: 60px;
