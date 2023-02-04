@@ -882,6 +882,9 @@ font {
   padding-top: 300px;
   cursor: pointer;
 }
+.address__rhs .hidden {
+  display: none;
+}
 .address__lhs {
   width: 50%;
   padding-bottom: 50px;
