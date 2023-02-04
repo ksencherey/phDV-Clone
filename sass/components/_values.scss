@@ -1,21 +1,23 @@
 .values {
-  display: block;
+  // display: block;
   width: 100%;
   padding-top: 600px;
-  padding-bottom: 100px;
+  padding-bottom: 800px;
+  position: relative;
   img {
     width: 100%;
+    position: absolute;
   }
 }
 @media screen and (max-width: 980px) {
   .values {
-    position: relative;
+    // position: relative;
     padding-top: 410px;
     padding-bottom: 320px;
     width: auto;
     height: auto;
     img {
-      position: absolute;
+      // position: absolute;
       width: 100%;
       height: auto;
       text-align: center;

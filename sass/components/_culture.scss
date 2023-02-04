@@ -28,7 +28,7 @@
       text-justify: newspaper;
       font-size: 30px;
       font-family: futura-lt-w01-book, sans-serif;
-      padding-left: 210px;
+      padding-left: 130px;
     }
     p {
       font-size: 18px;
@@ -40,7 +40,7 @@
   position: relative;
   display: flex;
   width: 100%;
-  padding-top: 37%;
+  padding-top: 37.4%;
   &__text {
     position: absolute;
     text-align: center;
@@ -51,7 +51,7 @@
       text-justify: newspaper;
       font-size: 30px;
       font-family: futura-lt-w01-book, sans-serif;
-      padding-left: 165px;
+      padding-left: 85px;
     }
     p {
       font-size: 18px;
@@ -70,13 +70,14 @@
 .mission {
   position: relative;
   display: flex;
-  max-width: 100%;
-  padding-top: 596px;
+  width: 100%;
+  padding-top: 38.2%;
   &__image {
     position: absolute;
     width: 100%;
+
+    left: 0%;
     img {
-      // position: absolute;
       width: 50%;
     }
   }
@@ -84,16 +85,17 @@
     position: absolute;
     text-align: center;
     width: 50%;
-    height: 98%;
     left: 50%;
+    height: 98%;
     border: 1px solid silver;
+
     h2 {
-      padding-top: 200px;
       text-align: justify;
       text-justify: newspaper;
       font-size: 30px;
       font-family: futura-lt-w01-book, sans-serif;
       padding-left: 100px;
+      padding-top: 100px;
     }
     p {
       font-size: 18px;
