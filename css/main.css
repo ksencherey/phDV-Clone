@@ -883,7 +883,7 @@ font {
   cursor: pointer;
 }
 .address__rhs .hidden {
-  display: none;
+  display: block;
 }
 .address__lhs {
   width: 50%;
